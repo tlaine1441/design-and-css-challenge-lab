@@ -67,7 +67,7 @@ body {
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    background-size: 100% 100%;
   height: 500px;
 }
 
@@ -79,10 +79,55 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.header-container {
+  text-align:center;
+}
+
+.header-button {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: transparent;
+  background: #f9e42e;
+}
+
+button:focus {
+  outline: none
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
 .testimonial-section {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    background-size: 100% 100%;
 }
+
+
+
+
+/*button:hover,
+button.hover {
+  background-color: #6496c8;
+  text-shadow: -1px 1px #27496d;
+}
+
+button:active,
+button.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}*/
 
 
 
