@@ -59,7 +59,7 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 75%;
   margin: auto;
   height: 500px;
 
@@ -81,6 +81,8 @@ main {
 }
 
 footer {
+  background: #121212;
+  text-align: center;
 
 }
 
@@ -138,8 +140,17 @@ button:focus {
   width: 50%;
 }
 
-main p {
+main {
+  font-weight: 400;
+  font-size: 13px;
   color: #606161;
+}
+main p {
+  
+}
+
+main ul {
+  list-style: disc;
 }
 
 .testimonial-section {
@@ -153,6 +164,42 @@ main p {
   font-weight: 400;
   font-style: italic;
   font-size: 18px;
+}
+
+section.sign-up {
+  background: #f9e42e;
+  text-align: center;
+  padding: 35px 0;
+}
+
+section.sign-up button {
+  background: #033048;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+footer a {
+  display: inline-block;
+  margin: 10px;
+}
+footer p {
+  margin-top: 50px;
+  color: #fff;
+}
+footer {
+  padding: 50px 0 20px 0;
+  letter-spacing: 2px;
 }
 
 
