@@ -114,6 +114,10 @@ h2 {
   padding: 10px 45px;
 }
 
+.header-button:hover {
+  background: #E3D02A;
+}
+
 button:focus {
   outline: none
 }
@@ -132,6 +136,7 @@ button:focus {
 
 .benefits-title {
   color: #033048;
+  margin: 0 0 20px 0;
   font-size: 20px;
   font-weight: 600;
 }
@@ -142,22 +147,25 @@ button:focus {
 
 main {
   font-weight: 400;
+  padding: 50px;
   font-size: 13px;
   color: #606161;
 }
 main p {
-  
+  margin: 0 0 20px 0;
 }
 
 main ul {
   list-style: disc;
+  padding: 0 0 0 45px;
 }
+
 
 .testimonial-section {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: 100% 100%;
   text-align: center;
-  padding: 50px;
+  padding: 75px 150px;
 }
 
 .quote {
@@ -166,13 +174,13 @@ main ul {
   font-size: 18px;
 }
 
-section.sign-up {
+.sign-up {
   background: #f9e42e;
   text-align: center;
   padding: 35px 0;
 }
 
-section.sign-up button {
+.sign-up button {
   background: #033048;
   color: #fff;
   border: none;
@@ -181,6 +189,11 @@ section.sign-up button {
   font-size: 12px;
   font-weight: 800;
 }
+
+.sign-up button:hover {
+  background: #022538;
+}
+
 
 footer h1 {
   color: #f9e42e;
@@ -201,22 +214,6 @@ footer {
   padding: 50px 0 20px 0;
   letter-spacing: 2px;
 }
-
-
-
-
-
-/*button:hover,
-button.hover {
-  background-color: #6496c8;
-  text-shadow: -1px 1px #27496d;
-}
-
-button:active,
-button.active {
-  background-color: #27496d;
-  text-shadow: -1px 1px #193047;
-}*/
 
 
 
