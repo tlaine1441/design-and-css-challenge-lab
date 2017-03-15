@@ -176,8 +176,15 @@ h2 {
 .testimonial-section {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: 100% 100%;
+  /*text-align: center;*/
+  /*padding: 75px 150px;*/
+  padding: 75px 0;
+}
+
+.testimonial-section-container {
+  max-width: 50%;
   text-align: center;
-  padding: 75px 150px;
+  margin: 0 auto;
 }
 
 .testimonial-quote {
