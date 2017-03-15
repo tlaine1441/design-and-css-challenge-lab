@@ -99,9 +99,9 @@ h2 {
   color: #fff;
 }
 
-/*******************************************
-/* HEADER
-/******************************************/
+/*        */
+/* HEADER */
+/*        */
 
 .header-container {
   text-align:center;
@@ -110,21 +110,24 @@ h2 {
 
 .header-button {
   color: #033048;
+  background: #f9e42e;
   font-weight: 800;
   font-size: 14px;
   border-radius: 5px;
   border: transparent;
-  background: #f9e42e;
   margin: 50px 0 0 0;
   padding: 10px 45px;
 }
+  .header-button:hover {
+    background: #E3D02A;
+  }
+  button:focus {
+    outline: none
+  }
 
-.header-button:hover {
-  background: #E3D02A;
-}
-
-button:focus {
-  outline: none
+.header-text {
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .logo {
@@ -133,32 +136,29 @@ button:focus {
   padding: 25px 0 0 50px;
 }
 
-.header-text {
-  font-weight: 600;
-  font-size: 24px;
-}
+/*        */
+/* BENEFITS */
+/*        */
 
-/*******************************************
-/* Benefits
-/******************************************/
+.benefits {
+  color: #606161;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 50px;
+}
 
 .benefits-title {
   color: #033048;
-  margin: 0 0 20px 0;
   font-size: 20px;
   font-weight: 600;
-}
-.benefits-container {
-  padding: 25px 0 25px 50px;
-  width: 50%;
+  margin: 0 0 20px 0;
 }
 
-.benefits {
-  font-weight: 300;
-  padding: 50px;
-  font-size: 13px;
-  color: #606161;
+.benefits-container {
+  width: 50%;
+  padding: 25px 0 25px 50px;
 }
+
 .benefits p {
   margin: 0 0 20px 0;
 }
@@ -168,9 +168,9 @@ button:focus {
   padding: 0 0 0 45px;
 }
 
-/*******************************************
-/* Testimonial
-/******************************************/
+/*             */
+/* TESTIMONIAL */
+/*             */
 
 
 .testimonial-section {
@@ -181,9 +181,9 @@ button:focus {
 }
 
 .testimonial-quote {
+  font-size: 18px;
   font-weight: 300;
   font-style: italic;
-  font-size: 18px;
 }
 
 .testimonial-quote-author {
@@ -192,9 +192,9 @@ button:focus {
   padding: 10px 0;
 }
 
-/*******************************************
-/* SIGN-UP
-/******************************************/
+/*         */
+/* SIGN-UP */
+/*         */
 
 .sign-up {
   background: #f9e42e;
@@ -206,20 +206,24 @@ button:focus {
   background: #033048;
   color: #fff;
   border: none;
-  padding: 10px 35px;
   border-radius: 5px;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  padding: 10px 35px;
 }
 
 .sign-up button:hover {
   background: #022538;
 }
 
-/*******************************************
-/* Footer
-/******************************************/
+/*        */
+/* FOOTER */
+/*        */
+footer {
+  letter-spacing: 2px;
+  padding: 50px 0 20px 0;
+}
 
 footer h1 {
   color: #f9e42e;
@@ -232,20 +236,14 @@ footer a {
   display: inline-block;
   margin: 10px;
 }
+
 footer img {
   width: 80%;
 }
+
 footer p {
-  margin-top: 40px;
   color: #fff;
   font-size: 9px;
   font-weight: 600;
-
+  margin-top: 40px;
 }
-footer {
-  padding: 50px 0 20px 0;
-  letter-spacing: 2px;
-}
-
-
-
