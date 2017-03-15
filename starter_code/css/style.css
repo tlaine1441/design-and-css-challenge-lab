@@ -234,6 +234,9 @@ footer img {
 footer p {
   margin-top: 40px;
   color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+
 }
 footer {
   padding: 50px 0 20px 0;
