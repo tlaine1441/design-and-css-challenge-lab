@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'open sans', sans-serif;
+     letter-spacing: 1px;
 }
 
 
@@ -59,7 +60,7 @@ body {
 
 /* Center the container */
 #container {
-  width: 75%;
+  width: 65%;
   margin: auto;
   height: 500px;
 
@@ -126,7 +127,6 @@ button:focus {
   font-size: 24px;
   font-weight: 800;
   padding: 25px 0 0 50px;
-  letter-spacing: 2px;
 }
 
 .header-text {
@@ -145,17 +145,17 @@ button:focus {
   width: 50%;
 }
 
-main {
-  font-weight: 400;
+.benefits {
+  font-weight: 300;
   padding: 50px;
   font-size: 13px;
   color: #606161;
 }
-main p {
+.benefits p {
   margin: 0 0 20px 0;
 }
 
-main ul {
+.benefits ul {
   list-style: disc;
   padding: 0 0 0 45px;
 }
@@ -169,9 +169,15 @@ main ul {
 }
 
 .quote {
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
   font-size: 18px;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
 }
 
 .sign-up {
@@ -188,6 +194,7 @@ main ul {
   border-radius: 5px;
   font-size: 12px;
   font-weight: 800;
+  letter-spacing: 1px;
 }
 
 .sign-up button:hover {
@@ -199,15 +206,18 @@ footer h1 {
   color: #f9e42e;
   font-size: 24px;
   font-weight: 800;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 footer a {
   display: inline-block;
   margin: 10px;
 }
+footer img {
+  width: 80%;
+}
 footer p {
-  margin-top: 50px;
+  margin-top: 40px;
   color: #fff;
 }
 footer {
